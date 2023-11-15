@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #a7906f;
+}
+
+.logo1{
+    color: #F4EEA9;
+    font-weight: bolder;
+}
+
+.logo2{
+    color: #f0bb62;
+    font-weight: lighter;
+}
+
+ul{
+    list-style: none;
+}
+
