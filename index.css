@@ -26,3 +26,29 @@ ul{
     list-style: none;
 }
 
+header nav{
+    display: none;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 70px auto;
+    position: relative;
+    top: 0px;
+    position: sticky;
+}
+
+header h1{
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 2px  black;
+}
+
+.bars{
+    grid-column: 1;
+    width: 50px;
+    padding-left: 10px;
+}
+
