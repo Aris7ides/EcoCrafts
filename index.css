@@ -10,11 +10,6 @@ body{
 }
 
 /* *****HEADER***** */
-
-header{
-    background-color: #a7906f;
-}
-
 .logo1{
     color: #F4EEA9;
     font-weight: bolder;
@@ -30,25 +25,28 @@ ul{
 }
 
 header{
+    background-color: #a7906f;
     display: grid;
-    grid-template-columns: 70px auto;
+    grid-template-columns: 18vw auto;
     position: relative;
     top: 0px;
+    height: 12vh;
     position: sticky;
 }
 
 header h1{
     grid-column: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-shadow: 1px 2px  black;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    height: fit-content;
 }
 
 .bars{
     grid-column: 1;
-    width: 50px;
-    padding-left: 10px;
+    width: 60%;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 
 .bars:hover{
@@ -158,6 +156,11 @@ main div{
     width: 90vw;
 }
 
+#about-us button{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 /* background gradual*/
 .gradient{
     background: rgb(244,238,169);
@@ -173,20 +176,57 @@ main div{
 .others{
     padding-top: 5%;
     padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
 }
 
 .other-options{
-    border: 1px solid ;
     border-radius: 25px;
     margin: 5%;
 }
 
+.other-options h3{
+    background-color: #a7906f;
+    width: fit-content;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #F4EEA9;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#shop{
+    background-image: url(img/shop-mobile2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#work{
+    background-image: url(img/work-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#blog{
+    background-image: url(img/blog-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.back{
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 /* BUTTONS */
 button{
     background-color: #a7906f;
     color: #F4EEA9;
-    padding: 5%;
+    padding: 20px;
     margin-top: 5%;
     margin-bottom: 10%;
     border: 0px;
