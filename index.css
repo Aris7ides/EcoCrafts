@@ -155,11 +155,6 @@ main div{
     width: 90vw;
 }
 
-#about-us button{
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
 /* background gradual*/
 .gradient{
     background: rgb(244,238,169);
@@ -219,6 +214,7 @@ main div{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100%;
 }
 
 /* BUTTONS */
@@ -226,17 +222,16 @@ button{
     background-color: #a7906f;
     color: #F4EEA9;
     padding: 20px;
-    margin-top: 5%;
-    margin-bottom: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
     border: 0px;
     border-radius: 50px;
     font-weight: 700;
 }
 
 button:hover{
-    padding: 6%;
-    margin-top: 4%;
-    margin-bottom: 9%;
+    padding: 30px;
+    margin: 30px;
     cursor: pointer;
 }
 
@@ -273,24 +268,41 @@ button:hover{
         margin: 15px;
     }
 
+    /***SECTION***/
+    #about-us div{
+        display: flex;
+        flex-direction: row;
+    }
 
+    #about-us img{
+        width: 50%;
+    }
 
+    #about-us p{
+        padding-right: 120px;
+    }
 
+    #reviews{
+        display: block;
+    }
 
+    #reviews div{
+        border: 1px solid ;
+        display: grid;
+        grid-template-columns: repeat(3,33%);
+        grid-template-rows: 200px;
+    }
 
+    .others{
+        display: grid;
+        grid-template-columns: repeat(3,33%);
+        grid-template-rows: 300px;
+        padding: 0px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
+    .back h3{
+        background-color: transparent;
+    }
 
     /***FOOTER***/
     footer{
@@ -299,7 +311,6 @@ button:hover{
     }
 
     .footer-section{
-        padding: 0px;
-        height: 90%;
+        text-align: center;
     }
 }
