@@ -282,35 +282,55 @@ button:hover{
         padding-right: 120px;
     }
 
+ /***Reviews***/
     #reviews{
         display: block;
     }
 
-    #reviews div{
-        border: 1px solid ;
-        display: grid;
-        grid-template-columns: repeat(3,33%);
-        grid-template-rows: 200px;
-    }
-
+    
+    /***Other optiobns***/
     .others{
         display: grid;
         grid-template-columns: repeat(3,33%);
         grid-template-rows: 300px;
         padding: 0px;
     }
-
+    
     .back h3{
         background-color: transparent;
     }
-
+    
     /***FOOTER***/
     footer{
         display: grid;
         grid-template-columns: 33% 33% 33%;
     }
-
+    
     .footer-section{
         text-align: center;
     }
+}
+
+#reviews h2{
+    color: #a7906f;
+    margin-bottom: 30px;
+}
+
+.container-reviews{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: 200px;
+}
+
+/***Imagenes de reviews***/
+.review img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+/***Estrellas de reviews***/
+.checked{
+    color: orange;
 }
